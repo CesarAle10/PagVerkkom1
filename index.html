@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+<header class="content">
+        <div class="menu container">
+            <a href="index.html" class="logo">
+                <img src="imagenes/LogVerk2.jpg" alt="logo" class="logo-img">
+            </a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Servicio.html">Servicios</a></li>
+                    <li><a href="centro-de-ayuda.html">Centro de ayuda</a></li>
+                </ul>
+            </nav>
+        </div>
+</header>
+
+<!-- estos son los textos de la pagina -->
+<section id="video-section">
+    <div id="video-container">
+        <video id="fondo-video" autoplay muted loop>
+            <source src="imagenes/VideoHallow2.mp4" type="video/mp4">
+            Tu navegador no soporta videos HTML5.
+        </video>
+    </div>
+</section>
+
+<section class="opciones-principal"> 
+        <h1>Tenemos la opción ideal para ti</h1>
+
+        <!-- Selector de categorías -->
+        <div class="categorias">
+            <div class="categoria active" data-categoria="fibra">Fibra Óptica</div>
+            <div class="categoria" data-categoria="antena">Antena</div>
+        </div>
+
+        <!-- Descripción -->
+        <p class="descripcion-categoria">
+            ¡Todo en uno, sin complicaciones! Conecta tu hogar o negocio con la mejor tecnología y disfruta de nuestro servicio sin preocupaciones.
+        </p>
+
+        <!-- Paquetes -->
+        <div class="paquetes">
+            <!-- Paquete Fibra -->
+            <div class="paquete" data-categoria="fibra">
+                <h2>Paquete Básico</h2>
+                <p>100 Mbps</p>
+                <p>Solo $500 / mes</p>
+                <a href="centro-de-ayuda.html" class="btn-paquete">Contratar</a>
+            </div>
+            <div class="paquete" data-categoria="fibra">
+                <h2>Paquete Estándar</h2>
+                <p>150 Mbps</p>
+                <p>Solo $600 / mes</p>
+                <a href="centro-de-ayuda.html" class="btn-paquete">Contratar</a>
+            </div>
+            <div class="paquete" data-categoria="fibra">
+                <h2>Paquete Max</h2>
+                <p>200 Mbps</p>
+                <p>Solo $700 / mes</p>
+                <a href="centro-de-ayuda.html" class="btn-paquete">Contratar</a>
+            </div>
+
+            <!-- Paquete Antena -->
+            <div class="paquete" data-categoria="antena">
+                <h2>Paquete Básico</h2>
+                <p>30 Mbps</p>
+                <p>Solo $399 / mes</p>
+                <a href="centro-de-ayuda.html" class="btn-paquete">Contratar</a>
+            </div>
+            <div class="paquete" data-categoria="antena">
+                <h2>Paquete Estándar</h2>
+                <p>40 Mbps</p>
+                <p>Solo $499 / mes</p>
+                <a href="centro-de-ayuda.html" class="btn-paquete">Contratar</a>
+            </div>
+            <div class="paquete" data-categoria="antena">
+                <h2>Paquete Max</h2>
+                <p>50 Mbps</p>
+                <p>Solo $599 / mes</p>
+                <a href="centro-de-ayuda.html" class="btn-paquete">Contratar</a>
+            </div>
+        </div>
+</section>
+
+<script src="script.js" defer></script>
+
+<section class="about">
+  <h2>¡Contactanos ya para mejroar tu conexion!</h2>
+  <a href="centro-de-ayuda.html" class="btn2">Contáctanos ahora</a>
+</section>
+
+<!--Aqui empesamos el pie de pagina-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Compañia</h4>
+                    <ul>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="Servicio.html">Nuestros Servicios</a></li>
+                        <li><a href="politica-privacidad.html">Politica de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="centro-de-ayuda.html">Centro de Ayuda</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/wifinet.lo/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/netkkom/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@verkkomnet"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-imagen">
+                <img src="imagenes/LogVerk4.png" alt="logo" class="borde-ajustado">
+            </div>
+            <div class="footer-copy">
+                <p>© 2025 Verkkom Redes Telecom. Todos los derechos reservados.</p>
+                <p>Contacto: soporte@verkkom.com | Tel. 800-123-4567</p>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
