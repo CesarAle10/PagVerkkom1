@@ -171,7 +171,9 @@ body{
 .btn-paquete:hover {
     background-color: #048250;
 }
-
+.about h2{
+    font-size: clamp(20px, 4vw, 36px); text-align: center;
+}
 
 
 
@@ -650,6 +652,7 @@ box-sizing: border-box;
         margin-bottom: 30px;
     }
 }
+
 
 
 
